@@ -7,10 +7,9 @@ class Layout extends Component {
     return (
       <React.Fragment>
         <Navbar>
-          <Navbar.Brand href="/dashboard">ReqBot</Navbar.Brand>
+          <Navbar.Brand href="/">ReqBot</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/">Carritos</Nav.Link>
-            <Nav.Link href="comidas">Comidas</Nav.Link>
             <Nav.Link href="iniciar">Iniciar Sesión</Nav.Link>
           </Nav>
         </Navbar>

@@ -1,7 +1,12 @@
-.tab-div {
+.tab-div-parent {
   padding: 50px 50px 50px 50px;
 }
 
-.nav-link {
+.tab-div-child {
+  border: 1px solid #dee2e6;
+  height: 80%;
+}
+
+.nav-tabs .nav-link {
   color: #e87777 !important;
 }

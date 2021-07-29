@@ -12,7 +12,7 @@ class Carritos extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:8080/foodTrucks")
+      .get("http://localhost:8080/foodTrucks/ordered")
       .then((res) => {
         console.log(res.data);
         this.setState({
